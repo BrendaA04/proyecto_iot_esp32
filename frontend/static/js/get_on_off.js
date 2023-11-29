@@ -1,6 +1,6 @@
 function on_off(valor) {
     alert("Actualizar Led ")
-    const URL = "https://esp32-api-2b745173c4b8.herokuapp.com/iot/1"
+    const URL = "https://esp32-5d7f8d64c991.herokuapp.com/iot/1"
 
     var request = new XMLHttpRequest;
     request.open('PUT',URL +"/" + valor,true);
